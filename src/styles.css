@@ -1,0 +1,15 @@
+/* Global CSS */
+
+:root {
+  --black: black;
+  --green: green;
+  --blue: blue;
+  --red: red;
+  --yellow: yellow;
+}
+
+body {
+  background-color: var(--black);
+  color: cornflowerblue;
+  font-family: courier new;
+}

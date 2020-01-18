@@ -1,0 +1,71 @@
+/* Game Component CSS */
+
+.container {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.flexbox {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.center {
+  justify-content: center;
+  align-items: baseline;
+}
+
+.side {
+  justify-content: space-around;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+/* Help */
+
+.help {
+  position: relative;
+  display: inline-block;
+}
+
+.help .helptext {
+  visibility: hidden;
+  width: 500px;
+  background-color: black;
+  color: cornflowerblue;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  /* position */
+  top: -5px;
+  left: 105%;  
+  position: absolute;
+  z-index: 1;
+}
+
+.help:hover .helptext {
+  visibility: visible;
+}
+
+/* Restart button */
+
+button {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 4rem;
+  border: 0.5rem solid;
+  background-color: var(--black);
+}
+
+.gold {
+  border-color: gold;
+  box-shadow: 0 6px lightgray;
+}
+
+.gold:hover {
+  background-color: gold;
+  box-shadow: 0 3px lightgrey;
+  transform: translate(3px);
+}

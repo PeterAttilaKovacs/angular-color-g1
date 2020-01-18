@@ -1,0 +1,61 @@
+/* Game Button CSS*/
+
+button {
+  width: 5.6rem;
+  height: 5.6rem;
+  border-radius: 4rem;
+  border: 0.5rem solid;
+  background-color: var(--black);
+}
+
+/* Red button */
+.red {
+  border-color: var(--red);
+  box-shadow: 0 6px lightsalmon;
+}
+
+.red:active,
+.red.active {
+  background-color: var(--red);
+  box-shadow: 0 3px lightsalmon;
+  transform: translateY(3px);
+}
+
+/* Green button */
+.green {
+  border-color: var(--green);
+  box-shadow: 0 6px limegreen;
+}
+
+.green:active,
+.green.active {
+  background-color: var(--green);
+  box-shadow: 0 3px limegreen;
+  transform: translateY(3px);
+}
+
+/* Blue button */
+.blue {
+  border-color: var(--blue);
+  box-shadow: 0 6px lightskyblue;
+}
+
+.blue:active,
+.blue.active {
+  background-color: var(--blue);
+  box-shadow: 0 3px lightskyblue;
+  transform: translateY(3px);
+}
+
+/* Yellow button */
+.yellow {
+  border-color: var(--yellow);
+  box-shadow: 0 6px lightgoldenrodyellow;
+}
+
+.yellow:active,
+.yellow.active {
+  background-color: var(--yellow);
+  box-shadow: 0 3px lightgoldenrodyellow;
+  transform: translateY(3px);
+}
